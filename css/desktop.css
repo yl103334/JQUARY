@@ -1,0 +1,398 @@
+	@font-face {
+  font-family: juli;
+  src: url("../fonts/JuliusSansOne-Regular.ttf");
+}
+@font-face {
+  font-family: Jose;
+  src: url("../fonts/JosefinSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Rub;
+  src: url("../fonts/RubikMonoOne-Regular.ttf");
+}
+
+body {
+  margin: 0;
+}
+#wrap {
+
+  box-shadow: -5px 6px 19px -3px rgba(0, 56, 66, 1);
+}
+#products {
+  font-family: juli;
+  background-color: #FFFEEC;
+  border: solid 1px white;
+  padding: 100px;
+}
+#testimonials {
+  font-weight: 0;
+  font-family: Jose;
+  background-color: #A1CDB7;
+  border: solid 1px red;
+  padding: 100px;
+}
+.heading {
+  font-size: 20pt;
+  font-family: Rub;
+  border: solid 1px green;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.productRow {
+  margin: 70px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+}
+.testimonialRow {
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.productRowReverse {
+  flex-direction: row-reverse;
+}
+.productImage {
+
+}
+.inline-border {
+  border: 1px solid green;
+  margin: 10px auto;
+  font-size: 20pt;
+}
+.productImage img {
+	align-items: left;
+  height: 580px;
+  width: 780px;
+}
+.productRDescription h2, .productDescription h2 {
+  font-family: Rub;
+}
+.productRDescription h2 {
+  color: pink;
+}
+.productDescription h2 {
+  color: darkseagreen;
+}
+.productRDescription {
+  flex-grow: 20;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  padding: 30px;
+}
+.productDescription {
+  position: relative;
+  right: 100px;
+  top: 100px;
+  padding: 30px;
+}
+.testimonial {
+  display: flex;
+  gap: 50px 100px;
+}
+.testimonialImage {
+  box-shadow: -5px 6px 19px -3px rgba(0, 56, 66, 1);
+  background-color: #FFFEEC;
+  border: solid 1px;
+  text-align: center;
+}
+.testimonialImage img {
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+}
+.testimonialText {
+  background-color: #FFFEEC;
+  display: flex;
+  align-items: center;
+}
+#hero {
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url("../images/1.png");
+  background-size: cover;
+  min-height: 40vh;
+  height: 1200px;
+}
+#hero img {
+  width: 100%;
+  height: 100%;
+}
+#sale {
+  width: 100%;
+  height: 300px;
+  background: rgba(255, 0, 0, 0);
+  position: absolute;
+  bottom: 900px;
+  right: 0;
+}
+
+		#saleWrap {
+    font-family: juli;
+    font-size: 50pt;
+    text-align: center;
+    position: relative; 
+}
+
+		#saleWrap h1{
+			color: white;
+			font-family: juli;
+
+		 text-shadow: 2px 4px 4px rgba(46,0,0,0.6);
+		font-weight: normal;
+	
+		}
+
+		
+#saleBtn {
+    background-color: #BDA65B;
+    width: 200px;
+    height: 100px;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border-radius: 20px;
+    font-size: 20pt;
+   display: flex;          
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+		#lightbox{
+			width : 100vw;
+			height : 100vh;
+			background: rgba(255,255,255,.8);
+
+			position : fixed;
+			z-index : 100;
+			top : 0px;
+			left : 0px;
+
+			display : none;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#lb_content{
+			border-radius : 25px;
+
+			width : 600px;
+			height : 400px;
+
+			background : white;
+		}
+		#LOGO{
+
+		}
+		#LOGO h1{
+				margin-left: 10px;
+		color: #FFFEEC;
+			font-family: Rub;
+
+
+		}
+		#intro{
+			text-align: center;
+
+			position: relative;
+			top:650px;
+		}
+		#intro h1{
+
+			color:#FFFEEC;
+			font-family: juli;
+			font-size: 32pt;
+			text-align: center;
+
+
+		}
+		#intro p{
+
+			display: flex;
+			color:#FFFEEC;
+			font-family: juli;
+			text-align: center;
+
+
+		}
+
+nav ul {
+	display : flex;
+	list-style : none;
+	padding : 0px;
+	margin : 25px;
+	border : solid 0px white;
+	width : 100%;
+}
+
+nav ul li{
+	flex-grow : 1;
+	text-align : center;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+	font-family: juli;
+padding: 100px;
+}
+
+
+
+nav{
+	flex-grow : 1;
+	max-width : 33%;
+	height : 100%;
+	border : solid 0px white;
+
+	align-items : center;
+	justify-content: center;
+}
+
+
+.topnav{
+
+	display: inline;
+	padding: 20px;
+	margin-left: 20px;
+	top: 1px;
+	flex-grow : 1;
+	max-width : 33%;
+	height : 100%;
+	border : solid 0px white;
+	display : flex;
+	align-items : center;
+	justify-content: center;
+}
+
+.topnav{
+position :relative;
+}
+
+
+.topnav input{
+	width : 100%;
+	height : 20px;
+	padding : 0px;
+	border : 0px;
+	padding-left : 10px;
+	padding-right : 40px;
+	font-size : 10pt;
+	font-weight : bold;
+	color : black;
+	font-family:juli;
+
+border: solid 1px white;
+	background : transparent;
+
+}
+
+
+.CO{
+	margin-left: 10px;
+	color:#FF9385;
+	font-family: Rub;
+text-align: left;
+border: solid 1px;
+}
+
+#contact{
+
+	border: none;
+	background-color: #1F4739;
+}
+#contact h4 {
+	margin-left: 50px;
+		font-family: juli;
+	color: whitesmoke;
+
+}
+#contact p {
+	margin-left: 50px;
+		font-family: juli;
+	color: whitesmoke;
+}
+#socialmedia{
+	margin-left: 100px;
+	border: none;
+		background-color: #1F4739;
+}
+
+#hea {
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url("../images/3.png");
+  background-size: cover;
+}
+
+
+#searchIcon{
+	position : absolute;
+	top : 20px;
+	right : 30px;
+	fill: white;
+}
+
+
+#sub{
+  margin-left: 10px;
+}
+
+
+#closeBtn{
+	position :absolute;
+	top : 10px;
+	right : 10px;
+}
+
+#closeBtn:hover{
+	cursor : pointer;
+}
+
+#closeBtn img{
+	width : 30px;
+	height : 30px;
+}
+
+#curtain{
+	position : fixed;
+	top : 0px;
+	left : 0px;
+	z-index : 10000;
+	width : 100vw;
+	height : 100vh;
+	background : black;
+/*	background-color: #671212;*/
+}
+
+#LOGO{
+	display : none;
+}
+
+#hea {
+
+font-family: juli;
+}
+#lb_content_text {
+
+	background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lb_content_text ul {
+	border: solid 0px;
+	 font-family: juli;
+	font-size: 20pt;
+  list-style: none;
+  padding: 80px;
+  margin: 100px;
+  text-align: center;
+}
+
+#sale {
+  display: none;
+}
+
+
